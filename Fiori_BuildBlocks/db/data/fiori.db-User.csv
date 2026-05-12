@@ -1,0 +1,6 @@
+ID,userName,userAge,userAddress,userStateCode,userStateName,Approved
+101,Snega,23,Sivagangai,TN,Tamil Nadu,true
+102,Ravi,28,Madurai,TN,Tamil Nadu,false
+103,Amit,30,Delhi,DL,Delhi,true
+104,Priya,26,Chennai,TN,Tamil Nadu,false
+105,Karan,29,Bangalore,KA,Karnataka,true

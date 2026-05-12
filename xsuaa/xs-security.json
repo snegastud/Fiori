@@ -1,0 +1,21 @@
+{
+  "xsappname": "auth_xsuaa",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Snega",
+      "description": "Snega"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Snega",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Snega"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

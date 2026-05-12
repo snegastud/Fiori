@@ -1,0 +1,21 @@
+{
+  "xsappname": "authXsuaa",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.UserAdminRole",
+      "description": "UserAdminRole"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "UserAdminRole",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.UserAdminRole"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

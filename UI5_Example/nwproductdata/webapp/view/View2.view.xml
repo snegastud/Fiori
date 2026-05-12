@@ -1,0 +1,9 @@
+<mvc:View controllerName="nw.nwproductdata.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page2" title="Routing view">
+    <content>
+
+       </content>
+    </Page>
+</mvc:View>

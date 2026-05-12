@@ -1,0 +1,13 @@
+.sapFAvatar {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.sapFAvatarImageHolder {
+    background-size: cover !important;
+}
+
+.sapUxAPObjectPageHeaderIdentifier .sapMAvatar {
+    width: 150px !important;
+    height: 150px !important;
+}  

@@ -1,0 +1,93 @@
+<mvc:View controllerName="nw.nwproductdata.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <Button text="click me" press="_greetme"/>
+	<Button text="go to view2" press="_toView2"/>
+    <Table id="idProductsTable" items="{path:'products>/'}">
+		
+		<columns>
+			<Column>
+           
+				<Text text="{i18n>pid}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>prodName}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>subID}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>catID}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>PerUnit}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>unit}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>stock}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>order}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>reorder}" /> 
+				
+			</Column>
+            	<Column>
+           
+				<Text text="{i18n>dis}" /> 
+				
+			</Column>
+            
+				
+			
+			
+		</columns>
+		<items>
+			<ColumnListItem >
+				<cells>
+					
+					<Text text="{products>ProductID}" />
+                    <Text text="{products>ProductName}" />
+                    <Text text="{products>SupplierID}" />
+                    <Text text="{products>CategoryID}" />
+                    <Text text="{products>QuantityPerUnit}" />
+                 <!--<Text text="{products>UnitPrice}" />-->   
+                     	<ObjectStatus
+							class="sapUiSmallMarginBottom"
+							text="{products>UnitPrice}"
+							icon="{=${products>UnitPrice}>50 ?'sap-icon://error':'sap-icon://sys-enter-2'}"
+                            
+							state="{=${products>UnitPrice}>50 ?'Error':'Success'}"/>
+                    <Text text="{products>UnitsInStock}" />
+                    <Text text="{products>UnitsOnOrder}" />
+                    <Text text="{products>ReorderLevel}" />
+                    <Text text="{products>Discontinued}" />
+					
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+    </content>
+    </Page>
+</mvc:View>
