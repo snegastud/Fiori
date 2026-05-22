@@ -1,0 +1,4 @@
+ID,deptCode,deptName,budgetLimit,departmentEmail
+DEP001,IT001,Information Technology,50000,it@techzone.com
+DEP002,HR001,Human Resources,30000,hr@techzone.com
+DEP003,FIN001,Finance,40000,finance@techzone.com

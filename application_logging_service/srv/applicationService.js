@@ -5,6 +5,9 @@ const LOG = cds.log('customer-service');
 this.on('CREATE', Customer, async (req) => {
 LOG.info('Request received', { data: req.data });
 try {
+      if(!req.data.ID){
+        LOG.warn("Validation failed:ID missing",{data:req.data})
+      }
       if (!req.data.name) {
         LOG.warn('Validation failed: Name missing', { data: req.data });
         return req.error(400, "Name is required");

@@ -2,22 +2,20 @@
   "name": "Fiori_BuildBlocks",
   "version": "1.0.0",
   "dependencies": {
+    "@cap-js/hana": "^2.8.0",
     "@sap/cds": "^9"
+   
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2",
-    "cds-plugin-ui5": "^0.13.0"
+    "@sap/cds-dk": "^9"
+  
   },
   "scripts": {
-    "start": "cds-serve",
-    "watch-project1": "cds watch --open project1/index.html?sap-ui-xx-viewCache=false --livereload false"
+    "start": "cds-serve"
   },
-  "private": true,
-  "workspaces": [
-    "app/*"
-  ],
-  "sapux": [
-    "app/project1",
-    "app/project1"
-  ]
+  "private": true
+
+ 
+
 }

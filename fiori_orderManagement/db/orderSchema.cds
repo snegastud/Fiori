@@ -1,7 +1,5 @@
 namespace order.db;
 
-
-
 entity  Order {
     key ID:Integer;
     orderNumber       : String;

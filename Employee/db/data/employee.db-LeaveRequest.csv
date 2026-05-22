@@ -1,0 +1,7 @@
+ID,employeeLeaveRequest_ID,leaveStartDate,leaveEndDate,leaveType_leave,leaveStatus_status,numberOfDays,leaveReason,leaveBalanceBefore,leaveBalanceAfter,approver_ID,managed,rejectionReason
+
+550e8400-e29b-41d4-a716-446655440001,550e8400-e29b-41d4-a716-446655440011,2026-05-20,2026-05-22,VACATION,PENDING,3,Family Function,2,,,2026-05-16T09:00:00Z,
+
+550e8400-e29b-41d4-a716-446655440002,550e8400-e29b-41d4-a716-446655440012,2026-05-10,2026-05-11,SICK_LEAVE,APPROVED,2,Fever and Rest,12,10,550e8400-e29b-41d4-a716-446655440013,2026-05-09T10:30:00Z,
+
+550e8400-e29b-41d4-a716-446655440003,550e8400-e29b-41d4-a716-446655440015,2026-05-15,2026-05-15,CASUAL_LEAVE,REJECTED,1,Personal Work,18,18,550e8400-e29b-41d4-a716-446655440016,2026-05-14T08:15:00Z,Leave rejected due to project deadline and limited team availability

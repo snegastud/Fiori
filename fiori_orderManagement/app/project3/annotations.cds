@@ -41,7 +41,7 @@ annotate service.Order with @(
     },
     UI.Chart #alpChart : {
         $Type : 'UI.ChartDefinitionType',
-        ChartType : #Column,
+        ChartType : #Pie,
         Dimensions : [
             status,
             currency,
@@ -69,7 +69,7 @@ annotate service.Order with @(
 
         Title : 'Orders By Status',
 
-        ChartType : #Column,
+        ChartType : #Line,
 
         Dimensions : [
             status

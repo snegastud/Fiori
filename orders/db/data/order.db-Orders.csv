@@ -1,0 +1,10 @@
+
+ID,orderNumber,customerName,productName,quantity,totalAmount,currency,status
+1,ORD-1001,Ravi Kumar,Laptop,1,55000.00,INR,NEW
+2,ORD-1002,Sneha A,Mobile Phone,2,30000.00,INR,PROCESSING
+3,ORD-1003,Arun Raj,Headphones,3,4500.00,INR,SHIPPED
+4,ORD-1004,Priya S,Smart Watch,1,8000.00,INR,DELIVERED
+5,ORD-1005,Vikram B,Keyboard,2,2500.00,INR,CANCELLED
+6,ORD-1006,Kavya M,Monitor,1,12000.00,INR,NEW
+7,ORD-1007,Deepak R,Tablet,1,22000.00,INR,PROCESSING
+8,ORD-1008,Anitha K,Mouse,5,1500.00,INR,SHIPPED
